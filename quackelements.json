@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "language": "tsx",
+  "theme": "default",
+  "paths": {
+    "components": "src/components/quack",
+    "hooks": "src/hooks",
+    "styles": "src/styles/quack-elements.css",
+    "utils": "src/lib/quack-elements.ts"
+  }
+}
