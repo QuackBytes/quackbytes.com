@@ -185,7 +185,10 @@ export function Intro({ lang }: { lang: string }) {
     beginRef.current = begin;
     stopRef.current = stop;
     frame = requestAnimationFrame(() => {
-      if (!isHome(pathname)) return;
+      if (!isHome(pathname)) {
+        root.removeAttribute("data-intro-pending");
+        return;
+      }
       if (pendingReplay.current) {
         pendingReplay.current = false;
         void begin(true);
@@ -193,6 +196,7 @@ export function Intro({ lang }: { lang: string }) {
       }
       try {
         if (sessionStorage.getItem("quackbytes-intro")) {
+          root.removeAttribute("data-intro-pending");
           return;
         }
         sessionStorage.setItem("quackbytes-intro", "seen");
