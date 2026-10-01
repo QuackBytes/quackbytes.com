@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "defaultTitle": "QuackBytes — Software for oddly specific problems.",
+    "titleTemplate": "%s — QuackBytes",
+    "siteDescription": "A young, independent software and design studio in Kayseri, Türkiye. We build brand identity, custom software, integrations, web products and security for specific business needs.",
+    "ogDescription": "Purpose-built software and design. A little focus goes a long way.",
+    "studioTitle": "The studio",
+    "studioDescription": "Meet the thinking behind QuackBytes — a young studio in Kayseri. Focused design, honest scope and custom software built around how your business actually works.",
+    "contactTitle": "Let’s talk",
+    "contactDescription": "Tell QuackBytes about your particular problem. Start a conversation about brand identity, custom software, an integration, automation, a web product or security.",
+    "ogLocale": "en_US"
+  },
+  "common": {
+    "skipLink": "Skip to content"
+  },
+  "nav": {
+    "home": "Home",
+    "studio": "The studio",
+    "contact": "Let’s talk",
+    "switchLabel": "Türkçe",
+    "switchAria": "Bu sayfayı Türkçe görüntüle"
+  },
+  "home": {
+    "eyebrowTop": "A YOUNG STUDIO · KAYSERİ, TÜRKİYE",
+    "eyebrowSide": "PURPOSE BUILT. DOWN TO THE BYTE.",
+    "heroH1Pre": "Software for",
+    "heroH1Em": "oddly specific",
+    "heroH1Post": "problems",
+    "leadLine1": "That one thing your business needs.",
+    "leadLine2": "That nothing off the shelf quite gets.",
+    "leadStrong": "We build that.",
+    "ctaPrimary": "Tell us your particular problem",
+    "bottomNote": "A small team for the things\nthat make a big difference.",
+    "scrollCue": "A little more about us",
+    "bottomIndex": "01 / AN INTRODUCTION",
+    "manifestoEyebrow": "THE QUICK BITES PHILOSOPHY",
+    "manifestoH2Line1": "Less software.",
+    "manifestoH2Pre": "More",
+    "manifestoH2Em": "solved.",
+    "manifestoP1": "Not every problem needs a platform. Sometimes it needs one well-made thing — an identity, a tool, a fix — that fits just right.",
+    "manifestoP2Pre": "We call these",
+    "manifestoP2Strong": "Quick Bites.",
+    "manifestoP2Post": "Focused design, custom software and careful security. Exactly what you need. Built with room to grow.",
+    "manifestoLink": "Meet the way we think",
+    "offeringsEyebrow": "SMALL SCOPE. REAL SUBSTANCE.",
+    "offeringsH2Line1": "Specific comes in",
+    "offeringsH2Line2": "a few different shapes.",
+    "offeringsLead": "We start with what’s in your way.\nThen build what moves you forward.",
+    "contactStripEyebrow": "SOUNDS FAMILIAR?",
+    "contactStripH2Line1": "“There has to be",
+    "contactStripH2Line2": "a better way to do this.”",
+    "contactStripP": "That’s usually where a good conversation starts.",
+    "contactStripCta": "Let’s figure it out"
+  },
+  "pond": {
+    "noteTop": "A small thing.\nA real difference.",
+    "duckLabel": "Make a little ripple"
+  },
+  "bites": {
+    "sectionLabel": "What we build",
+    "panelEyebrow": "A QUICK BITE COULD BE",
+    "illustrative": "Illustrative example",
+    "cta": "Have something like this in mind?",
+    "items": [
+      {
+        "name": "Brand identity",
+        "title": "Make the right first impression.",
+        "description": "A logo is the start, not the story. We shape the colours, type and tone that make your brand feel like one confident thing — online and off.",
+        "example": "A full identity kit your whole team can actually use.",
+        "before": "A logo and a maybe",
+        "after": "A brand with a backbone",
+        "items": ["Nail the core idea", "Design the system", "Hand over a usable kit"],
+        "label": "IDENTITY SYSTEM",
+        "type": "brand-identity"
+      },
+      {
+        "name": "Custom software",
+        "title": "Built for you. Top to bottom.",
+        "description": "Frontend, backend, database — the whole thing, made to fit. When nothing off the shelf quite does the job, we build the thing that does.",
+        "example": "One system that finally works the way you do.",
+        "before": "Off-the-shelf, almost",
+        "after": "Made to measure",
+        "items": ["Design the data model", "Build the interface", "Ship something real"],
+        "label": "FULL-STACK BUILD",
+        "type": "custom-software"
+      },
+      {
+        "name": "Integrations",
+        "title": "Let your systems do the talking.",
+        "description": "Your tools already hold the answers. We connect them and automate the dull parts, so nobody is copying data from one tab to another anymore.",
+        "example": "An order comes in. Everything else just happens.",
+        "before": "Copy, paste, repeat",
+        "after": "Quietly handled",
+        "items": ["Order received", "Systems updated", "Team notified"],
+        "label": "CONNECTED FLOW",
+        "type": "integration"
+      },
+      {
+        "name": "Web products",
+        "title": "One good idea. Made real.",
+        "description": "A focused customer portal, a useful little service, a product with a very particular job. Thoughtfully designed, carefully built, ready to earn its keep.",
+        "example": "A customer portal with exactly what people came for.",
+        "before": "An idea with potential",
+        "after": "A product with purpose",
+        "items": ["A clear starting point", "The right information", "One useful action"],
+        "label": "CUSTOMER PORTAL",
+        "type": "web-product"
+      },
+      {
+        "name": "Security",
+        "title": "Sleep a little easier.",
+        "description": "We look for the gaps before anyone else does — reviewing your code, your access and your weak spots, then quietly closing them.",
+        "example": "A clear report and a safer system to show for it.",
+        "before": "Fingers crossed",
+        "after": "Properly covered",
+        "items": ["Review the surface", "Find the gaps", "Close them for good"],
+        "label": "SECURITY REVIEW",
+        "type": "security"
+      }
+    ]
+  },
+  "studio": {
+    "heroEyebrow": "THE STUDIO & THE THINKING",
+    "heroH1Pre": "A little different.",
+    "heroH1Em": "Very deliberate.",
+    "stampLine1": "SMALL BY DESIGN",
+    "stampLine2": "SPECIFIC BY NATURE",
+    "introP1": "QuackBytes is a young, independent studio in Kayseri for the parts of your business that don’t fit neatly into someone else’s product.",
+    "introP2": "We handle brand identity, custom software, integrations, web products and security. The common thread? A specific problem, properly understood, and something useful on the other side.",
+    "nameEyebrow": "A NOTE ON THE NAME",
+    "nameH2Line1": "Quick bites.",
+    "nameH2Pre": "Quack",
+    "nameH2Orange": "Bytes.",
+    "handwritten": "A little wordplay. A whole philosophy.",
+    "storyLarge": "Small enough to stay focused.\nCustom enough to actually fit.\nBuilt well enough to grow.",
+    "storyP1": "“Quick Bites” is our way of thinking about scope. Find the part that matters. Give it the attention it deserves. Build something that earns its place in your working day.",
+    "storyP2": "A bite might be a single logo or a complete platform. Its size comes from the problem, not a package.",
+    "principlesEyebrow": "WHAT YOU CAN EXPECT",
+    "principle1Line1": "The problem",
+    "principle1Line2": "comes first.",
+    "principle1P": "We ask how things work today, where they get stuck and what a better day would look like. The technology comes after the understanding.",
+    "principle2Line1": "Every detail",
+    "principle2Line2": "earns its place.",
+    "principle2P": "We agree on a clear scope and make the trade-offs visible. The goal is useful work with a clear job, built around the people who will use it.",
+    "principle3Line1": "Built for life",
+    "principle3Line2": "after launch.",
+    "principle3P": "Readable code, sensible documentation and a thoughtful handover. We discuss maintenance and the next steps early, so you know what you’re taking on.",
+    "processEyebrow": "FROM “WHAT IF” TO “THAT WORKS”",
+    "processH2Line1": "A conversation.",
+    "processH2Line2": "Then a clear way forward.",
+    "processLead": "A close collaboration.\nNo disappearing act.",
+    "steps": [
+      {
+        "label": "01 / UNDERSTAND",
+        "title": "Show us the snag.",
+        "text": "A messy workflow, an awkward workaround, an idea you can’t quite put down. We start there."
+      },
+      {
+        "label": "02 / SHAPE",
+        "title": "Find the right bite.",
+        "text": "We define the smallest useful solution, agree on scope and talk through the time and investment."
+      },
+      {
+        "label": "03 / BUILD",
+        "title": "Make it tangible.",
+        "text": "Working design and software, shared early. Your feedback helps it fit the way you actually work."
+      },
+      {
+        "label": "04 / HAND OVER",
+        "title": "Put it to work.",
+        "text": "Test the real scenarios, get it into use and leave you with a clear path to what’s next."
+      }
+    ],
+    "ctaEyebrow": "YOUR PROBLEM DOESN’T HAVE TO SOUND IMPRESSIVE.",
+    "ctaH2Pre": "It just has to",
+    "ctaH2Em": "matter to you.",
+    "ctaButton": "Tell us about it"
+  },
+  "contact": {
+    "eyebrow": "A GOOD PLACE TO START",
+    "h1Pre": "Got a",
+    "h1Em": "particular",
+    "h1Post": "problem",
+    "lead": "We’d like to hear it. You don’t need a perfect brief. A little context is plenty.",
+    "noteHandwritten": "People, on both sides.",
+    "noteP": "Your note starts a conversation with the studio. We’ll talk through the fit, the scope and a sensible next step.",
+    "fallback": "Getting your brief ready…"
+  },
+  "form": {
+    "interests": [
+      { "value": "brand-identity", "label": "Brand identity" },
+      { "value": "custom-software", "label": "Custom software" },
+      { "value": "integration", "label": "Integration & automation" },
+      { "value": "web-product", "label": "Web product" },
+      { "value": "security", "label": "Security" },
+      { "value": "not-sure", "label": "Let’s figure it out" }
+    ],
+    "headingEyebrow": "YOUR NEXT QUICK BITE",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Alex, for example",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@yourcompany.com",
+    "companyLabel": "Company",
+    "companyOptional": "(if you have one)",
+    "companyPlaceholder": "Where you do your thing",
+    "interestLegend": "What do you have in mind?",
+    "problemLabel": "Tell us about that one thing",
+    "problemPlaceholder": "What’s getting in the way? How do you handle it now? What would make it better?",
+    "formHelp": "A rough idea is welcome. Please leave out passwords and confidential information.",
+    "submit": "Put the conversation together",
+    "disclosure": "We’ll prepare an email for you to review and send. Nothing is sent or stored by this form.",
+    "validationName": "Please enter your name.",
+    "validationProblem": "Please give us at least 10 characters of context.",
+    "briefGreeting": "Hello QuackBytes,",
+    "briefInterested": "Interested in:",
+    "briefName": "Name:",
+    "briefEmail": "Email:",
+    "briefCompany": "Company:",
+    "briefCompanyNone": "Not specified",
+    "emailSubject": "A particular problem —",
+    "resultH2": "Your introduction is ready.",
+    "resultP": "Open your email app, review your note and send it when you’re ready.",
+    "ariaDraft": "Your email draft",
+    "openEmail": "Open email draft",
+    "copy": "Copy the note",
+    "copied": "Copied ✓",
+    "copyError": "Copy isn’t available in this browser. You can select and copy your note above.",
+    "resultDisclosure": "No email app? Copy the note into your webmail and send it to hello@quackbytes.com."
+  },
+  "notFound": {
+    "eyebrow": "404 / A LITTLE OFF COURSE",
+    "h1Pre": "This isn’t",
+    "h1Em": "our pond.",
+    "p": "The page you’re looking for isn’t here. Let’s get you back.",
+    "button": "Back to familiar waters"
+  },
+  "footer": {
+    "tagline": "Small by design. Specific by nature.",
+    "location": "Independent software studio · Kayseri, Türkiye",
+    "replay": "Replay the little duck"
+  }
+}

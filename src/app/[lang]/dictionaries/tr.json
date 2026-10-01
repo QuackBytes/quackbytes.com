@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "defaultTitle": "QuackBytes — Her şeyi değil, işinizi çözen yazılımlar.",
+    "titleTemplate": "%s — QuackBytes",
+    "siteDescription": "Kayseri merkezli bağımsız yazılım ve tasarım stüdyosu. İşletmelerin hazır araçlarla çözemediği işleri; özel yazılım, entegrasyon, web ürünleri, güvenlik ve marka tasarımıyla çözüyoruz.",
+    "ogDescription": "Her şeyi değil, işinizi çözen yazılımlar. Az laf, doğru kapsam, çalışan sonuç.",
+    "studioTitle": "Stüdyo",
+    "studioDescription": "QuackBytes’ın çalışma biçimiyle tanışın. Kayseri’de, işinizi gerçekten yürüttüğünüz şekle göre yazılım ve tasarım üreten bağımsız bir stüdyo.",
+    "contactTitle": "Konuşalım",
+    "contactDescription": "İşinizde nerede takıldığınızı QuackBytes’a anlatın. Yazılım, entegrasyon, otomasyon, web ürünü, güvenlik veya marka tasarımı için konuşalım.",
+    "ogLocale": "tr_TR"
+  },
+  "common": {
+    "skipLink": "İçeriğe geç"
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "studio": "Stüdyo",
+    "contact": "Konuşalım",
+    "switchLabel": "EN",
+    "switchAria": "View this page in English"
+  },
+  "home": {
+    "eyebrowTop": "BAĞIMSIZ YAZILIM STÜDYOSU · KAYSERİ",
+    "eyebrowSide": "DERDİ BELLİ. ÇÖZÜMÜ NET.",
+    "heroH1Pre": "Her şeyi değil.",
+    "heroH1Em": "İşinizi çözen",
+    "heroH1Post": "yazılımlar",
+    "leadLine1": "İşinizde dönüp dolaşıp önünüze gelen o mesele.",
+    "leadLine2": "Hazır araçların bir türlü tam çözemediği.",
+    "leadStrong": "Biz tam oraya yazılım yapıyoruz.",
+    "ctaPrimary": "Nerede takıldığınızı anlatın",
+    "bottomNote": "Küçük bir ekip.\nİşi büyük fark yaratan çözümler.",
+    "scrollCue": "Bizi biraz daha tanıyın",
+    "bottomIndex": "01 / BİR TANIŞMA",
+    "manifestoEyebrow": "QUICK BITES DEDİĞİMİZ ŞEY",
+    "manifestoH2Line1": "Daha az kalabalık.",
+    "manifestoH2Pre": "Daha çok",
+    "manifestoH2Em": "çözülmüş iş.",
+    "manifestoP1": "Her işin dev bir platforma ihtiyacı yok. Bazen tam yerine oturan tek bir araç, sağlam bir kimlik ya da doğru kurulmuş bir akış yeter.",
+    "manifestoP2Pre": "Biz bunlara",
+    "manifestoP2Strong": "Quick Bites",
+    "manifestoP2Post": "diyoruz. Gereksiz özelliği değil, iş gören çözümü tasarlıyoruz. Bugünü toparlayan, yarını da kilitlemeyen cinsten.",
+    "manifestoLink": "Bu işlere nasıl baktığımızı görün",
+    "offeringsEyebrow": "HER ŞEY LAZIM DEĞİL. DOĞRUSU LAZIM.",
+    "offeringsH2Line1": "Dert başka.",
+    "offeringsH2Line2": "Çözüm de öyle.",
+    "offeringsLead": "Önce nerede takıldığınıza bakıyoruz.\nSonra gerçekten gerekeni yapıyoruz.",
+    "contactStripEyebrow": "TANIDIK GELDİ Mİ?",
+    "contactStripH2Line1": "“Bunu hâlâ",
+    "contactStripH2Line2": "böyle mi yapıyoruz?”",
+    "contactStripP": "İyi projelerin çoğu tam bu cümleyle başlıyor.",
+    "contactStripCta": "Neyi düzeltiyoruz?"
+  },
+  "pond": {
+    "noteTop": "Küçük bir şey.\nGerçek bir fark.",
+    "duckLabel": "Küçük bir dalga yarat"
+  },
+  "bites": {
+    "sectionLabel": "Ne yapıyoruz",
+    "panelEyebrow": "MESELA ŞÖYLE BİR QUICK BITE",
+    "illustrative": "Temsili örnek",
+    "cta": "Sizde de buna benzer bir mesele mi var?",
+    "items": [
+      {
+        "name": "Kurumsal kimlik",
+        "title": "İlk izlenim şansa kalmasın.",
+        "description": "Logo başlangıçtır; bütün mesele o değildir. Rengi, yazısı ve dili aynı şeyi söyleyen, nerede görünse kendini belli eden bir marka sistemi kuruyoruz.",
+        "example": "Tüm ekibin gerçekten kullanabileceği eksiksiz bir kimlik kiti.",
+        "before": "Bir logo, bolca ‘belki’",
+        "after": "Omurgası olan bir marka",
+        "items": ["Ana fikri netleştir", "Sistemi tasarla", "Kullanılır bir kit teslim et"],
+        "label": "KİMLİK SİSTEMİ",
+        "type": "brand-identity"
+      },
+      {
+        "name": "Özel yazılım",
+        "title": "İşiniz nasılsa, yazılım da öyle.",
+        "description": "Arayüzü, altyapısı, verisi; tamamı sizin çalışma biçiminize göre. Hazır ürünün ‘neredeyse’ yettiği yerde, gerçekten yetenini yazıyoruz.",
+        "example": "Ekibinize ayak uyduran tek bir sistem.",
+        "before": "Hazır ürün. Eh, neredeyse",
+        "after": "Tam işinize göre",
+        "items": ["Veri modelini kur", "Arayüzü inşa et", "Gerçek bir şey çıkar"],
+        "label": "UÇTAN UCA YAZILIM",
+        "type": "custom-software"
+      },
+      {
+        "name": "Entegrasyon",
+        "title": "Sistemler konuşsun. Siz sekme gezmeyin.",
+        "description": "Araçlarınız gereken veriyi zaten tutuyor. Onları birbirine bağlıyor, tekrar eden işleri otomatikleştiriyoruz. Kopyala-yapıştır da hak ettiği yere, geçmişe gidiyor.",
+        "example": "Sipariş düşer. Gerisi kendiliğinden olur.",
+        "before": "Kopyala, yapıştır, tekrarla",
+        "after": "Arka planda halloldu",
+        "items": ["Sipariş alındı", "Sistemler güncellendi", "Ekip haberdar edildi"],
+        "label": "BAĞLI AKIŞ",
+        "type": "integration"
+      },
+      {
+        "name": "Web ürünleri",
+        "title": "İyi fikir, çalışan ürün.",
+        "description": "Müşteri portalı, küçük bir servis ya da tek bir işi çok iyi yapan bir ürün. Gösteriş için değil, kullanılsın diye tasarlayıp geliştiriyoruz.",
+        "example": "Müşterilerin tam da aradığını sunan bir portal.",
+        "before": "Potansiyeli olan bir fikir",
+        "after": "Amacı olan bir ürün",
+        "items": ["Net bir başlangıç noktası", "Doğru bilgi", "Tek, işe yarar eylem"],
+        "label": "MÜŞTERİ PORTALI",
+        "type": "web-product"
+      },
+      {
+        "name": "Güvenlik",
+        "title": "‘Bir şey olmaz’ güvenlik planı değildir.",
+        "description": "Kodunuzu, erişimleri ve zayıf noktaları sizden önce yanlış kişinin bulmaması için inceliyor; bulduklarımızı açıkça anlatıp kapatıyoruz.",
+        "example": "Elinizde net bir rapor ve daha güvenli bir sistem kalır.",
+        "before": "Bir şey olmaz herhalde",
+        "after": "Kontrol bizde",
+        "items": ["Yüzeyi incele", "Açıkları bul", "Kalıcı olarak kapat"],
+        "label": "GÜVENLİK İNCELEMESİ",
+        "type": "security"
+      }
+    ]
+  },
+  "studio": {
+    "heroEyebrow": "BİZ KİMİZ, BU İŞE NASIL BAKIYORUZ",
+    "heroH1Pre": "İşi ciddiye alırız.",
+    "heroH1Em": "Kendimizi o kadar değil.",
+    "stampLine1": "KÜÇÜK EKİP",
+    "stampLine2": "NET İŞ",
+    "introP1": "QuackBytes, Kayseri’de bağımsız bir yazılım ve tasarım stüdyosu. Başkasının ürününe bir türlü sığmayan işleriniz için buradayız.",
+    "introP2": "Marka kimliği, özel yazılım, entegrasyon, web ürünleri ve güvenlik üzerine çalışıyoruz. Ortak nokta basit: derdi doğru anlayıp sonunda gerçekten kullanılan bir şey bırakmak.",
+    "nameEyebrow": "İSİM ÜZERİNE BİR NOT",
+    "nameH2Line1": "Quick bites.",
+    "nameH2Pre": "Quack",
+    "nameH2Orange": "Bytes.",
+    "handwritten": "Kelime oyunu küçük. Niyet ciddi.",
+    "storyLarge": "Odaktan şaşmayacak kadar küçük.\nİşinize oturacak kadar size göre.\nYarın da çalışacak kadar sağlam.",
+    "storyP1": "“Quick Bites”, kapsamı ele alış biçimimiz. Önce gerçekten önemli parçayı buluruz. Sonra ona hak ettiği özeni verir, çalışma gününüzde yer kazanan bir şey üretiriz.",
+    "storyP2": "Bir “bite” tek bir logo da olabilir, eksiksiz bir platform da. Boyutunu hazır paketler değil, yapılacak iş belirler.",
+    "principlesEyebrow": "NE BEKLEYEBİLİRSİNİZ",
+    "principle1Line1": "Önce mesele",
+    "principle1Line2": "netleşir.",
+    "principle1P": "Bugün işler nasıl yürüyor, nerede takılıyor ve daha iyi bir gün nasıl görünür diye soruyoruz. Teknoloji, anlamaktan sonra gelir.",
+    "principle2Line1": "Her ayrıntı",
+    "principle2Line2": "yerini hak eder.",
+    "principle2P": "Kapsamı netleştirir, seçeneklerin bedelini açıkça konuşuruz. Amaç; kullanan insana uyan, işi belli ve gerçekten işe yarayan bir sonuç.",
+    "principle3Line1": "Yayınladık, bitti",
+    "principle3Line2": "demiyoruz.",
+    "principle3P": "Okunur kod, anlaşılır dokümantasyon ve düzgün bir devir bırakırız. Bakımı ve sonraki adımları erkenden konuşuruz; sonradan sürpriz çıkmaz.",
+    "processEyebrow": "‘YA ŞÖYLE OLSA?’DAN ‘TAMAMDIR’A",
+    "processH2Line1": "Bir sohbet.",
+    "processH2Line2": "Sonra net bir yol.",
+    "processLead": "Yakın çalışırız.\nOrtadan kaybolmayız.",
+    "steps": [
+      {
+        "label": "01 / ANLA",
+        "title": "Nerede takıldığınızı gösterin.",
+        "text": "Dağınık bir süreç, ‘şimdilik böyle idare ediyoruz’ dediğiniz bir çözüm ya da peşinizi bırakmayan bir fikir. Oradan başlıyoruz."
+      },
+      {
+        "label": "02 / ŞEKİLLENDİR",
+        "title": "Doğru parçayı seçin.",
+        "text": "İşe yarayan en yalın çözümü belirler; kapsamı, süreyi ve bütçeyi açıkça konuşuruz."
+      },
+      {
+        "label": "03 / İNŞA ET",
+        "title": "Çalışan hâlini görün.",
+        "text": "Tasarımla yazılımı erkenden çalışır hâlde paylaşırız. Geri bildiriminizle, günlük işinize gerçekten oturturuz."
+      },
+      {
+        "label": "04 / DEVRET",
+        "title": "İşe koyun.",
+        "text": "Gerçek senaryoları test eder, kullanıma alır ve sonrası için önünüzde net bir yol bırakırız."
+      }
+    ],
+    "ctaEyebrow": "DERDİNİZİN SUNUMDA HAVALI DURMASI GEREKMİYOR.",
+    "ctaH2Pre": "İşinizi aksatıyorsa",
+    "ctaH2Em": "konuşmaya değer.",
+    "ctaButton": "Neler oluyor, anlatın"
+  },
+  "contact": {
+    "eyebrow": "NEREDEN BAŞLAYACAĞINIZI BİLMİYORSANIZ, BURADAN.",
+    "h1Pre": "İşinizde",
+    "h1Em": "bir şey",
+    "h1Post": "takılıyor mu",
+    "lead": "Anlatın, birlikte bakalım. Kusursuz bir brief değil; biraz bağlam yeter.",
+    "noteHandwritten": "Karşınızda gerçek insanlar var.",
+    "noteP": "Mesajınız doğrudan stüdyoyla bir sohbet başlatır. Uyumlu muyuz, kapsam ne olmalı, sıradaki mantıklı adım ne; birlikte konuşuruz.",
+    "fallback": "Brief’iniz hazırlanıyor…"
+  },
+  "form": {
+    "interests": [
+      { "value": "brand-identity", "label": "Kurumsal kimlik" },
+      { "value": "custom-software", "label": "Özel yazılım" },
+      { "value": "integration", "label": "Entegrasyon & otomasyon" },
+      { "value": "web-product", "label": "Web ürünü" },
+      { "value": "security", "label": "Güvenlik" },
+      { "value": "not-sure", "label": "Birlikte bulalım" }
+    ],
+    "headingEyebrow": "SIRADA NEYİ ÇÖZÜYORUZ?",
+    "nameLabel": "Adınız",
+    "namePlaceholder": "Örneğin Ali",
+    "emailLabel": "E-posta adresi",
+    "emailPlaceholder": "siz@sirketiniz.com",
+    "companyLabel": "Şirket",
+    "companyOptional": "(varsa)",
+    "companyPlaceholder": "Şirketinizin adı",
+    "interestLegend": "Aklınızda ne var?",
+    "problemLabel": "Nerede takıldığınızı anlatın",
+    "problemPlaceholder": "Şu an ne oluyor? Nasıl idare ediyorsunuz? Nasıl olsa işler daha rahat yürürdü?",
+    "formHelp": "Fikrin henüz tam pişmemiş olması sorun değil. Parola ve gizli bilgi paylaşmayın, o kadar.",
+    "submit": "Mesajı hazırlayın",
+    "disclosure": "Gözden geçirip gönderebilmeniz için bir e-posta hazırlarız. Bu form hiçbir şey göndermez ya da saklamaz.",
+    "validationName": "Lütfen adınızı girin.",
+    "validationProblem": "Lütfen en az 10 karakterlik bağlam verin.",
+    "briefGreeting": "Merhaba QuackBytes,",
+    "briefInterested": "İlgilendiğim:",
+    "briefName": "Ad:",
+    "briefEmail": "E-posta:",
+    "briefCompany": "Şirket:",
+    "briefCompanyNone": "Belirtilmedi",
+    "emailSubject": "Birlikte çözebilir miyiz? —",
+    "resultH2": "Mesajınız hazır.",
+    "resultP": "E-posta uygulamanızı açın, son bir göz atın ve içinize sindiyse gönderin.",
+    "ariaDraft": "E-posta taslağınız",
+    "openEmail": "E-posta taslağını aç",
+    "copy": "Notu kopyala",
+    "copied": "Kopyalandı ✓",
+    "copyError": "Bu tarayıcıda kopyalama kullanılamıyor. Yukarıdaki notu seçip kopyalayabilirsiniz.",
+    "resultDisclosure": "E-posta uygulamanız yok mu? Notu webmail’inize kopyalayıp hello@quackbytes.com adresine gönderin."
+  },
+  "notFound": {
+    "eyebrow": "404 / BURAYA NASIL GELDİK?",
+    "h1Pre": "Burası bizim",
+    "h1Em": "gölet değil.",
+    "p": "Aradığınız sayfa burada değil. Bunu da çözeriz: geri dönelim.",
+    "button": "Tanıdık sulara dön"
+  },
+  "footer": {
+    "tagline": "Küçük ekip. Net işler.",
+    "location": "Bağımsız yazılım stüdyosu · Kayseri, Türkiye",
+    "replay": "Ördeği bir daha uçur"
+  }
+}

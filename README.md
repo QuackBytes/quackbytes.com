@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QuackBytes
 
-## Getting Started
+Independent software studio. Software for oddly specific problems.
 
-First, run the development server:
+Three-page Next.js site built around the original pixel duck, warm paper colors, editorial typography and a custom pixel-water animation. All fonts and artwork are local.
 
-```bash
+## Run
+
+```sh
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. For production, run `npm run build` then `npm start`. Code checks: `npm run lint`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/` — positioning, interactive duck pond, Quick Bites and keyboard-accessible service tabs.
+- `/studio` — the name, principles and collaboration process.
+- `/contact` — a project introduction addressed to `hello@quackbytes.com`.
 
-## Learn More
+The contact form validates the brief and prepares a reviewable email draft. Visitors send it using their email client or copy it into webmail. There is no server submission, database or email provider. Connect a server endpoint and an email service before offering direct form delivery.
 
-To learn more about Next.js, take a look at the following resources:
+Service examples are explicitly illustrative. There are no invented client, case-study or performance claims.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Design and behavior
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Original logo: `public/brand/qblogo.svg`.
+- Layout and design tokens: `src/app/globals.css`.
+- Local fonts and licenses: `fonts/`.
+- On the first home-page visit, one ripple plays under the centered duck. The water fades out before takeoff; only the original duck moves into the hero. A fresh ripple begins on touchdown and becomes the gentle ambient water motion. Resizing, scrolling, navigating or pressing Escape safely finishes the introduction. Replay from any page returns home and plays it again.
+- Reduced-motion preferences skip the automatic intro and stop ambient water movement. Choosing “Replay the little duck” explicitly previews the full motion, without changing system settings.
+- The intro has a stable mounted overlay, an early first-paint guard and one continuous composited flight. The veil is hidden before animation cleanup to prevent a white flash. Repeated replay input does not restart an active flight. The pixel rings use three precomputed SVG paths. Font/image preparation and playback both have fail-open timeouts.
+- The duck responds to mouse, touch and keyboard activation. Deep ocean-blue click ripples run on four reusable surfaces, independently of the ambient water, so repeated clicks never restart or truncate a visible wave. Each pulse expands outward and fades to a transparent resting state. Reduced-motion visitors get a short stationary fade unless they explicitly preview the full intro.
+- Contact drafts stay in component memory and clear on navigation. Nothing from the form is stored or transmitted by this site.
+- Production origin: `https://quackbytes.com`.
+- Brand preview assets can be regenerated with `node scripts/generate-brand-assets.mjs`.
 
-## Deploy on Vercel
+The pre-existing QuackElements files are retained for future use. Public pages use a small set of purpose-built components.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Verification
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Production build and ESLint, plus browser checks of desktop and narrow mobile layouts, service selection and arrow-key navigation, contact topic preselection, required-field validation, draft generation and the copy fallback. No test email is sent.
