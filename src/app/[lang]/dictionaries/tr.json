@@ -18,7 +18,8 @@
     "studio": "Stüdyo",
     "contact": "Konuşalım",
     "switchLabel": "EN",
-    "switchAria": "View this page in English"
+    "switchAria": "View this page in English",
+    "themeAria": "Açık ve koyu tema arasında geçiş yap"
   },
   "home": {
     "eyebrowTop": "BAĞIMSIZ YAZILIM STÜDYOSU · KAYSERİ",

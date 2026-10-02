@@ -77,10 +77,16 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <head>
+        <script
+          id="theme-first-paint"
+          dangerouslySetInnerHTML={{
+            __html: `(()=>{try{const saved=localStorage.getItem("quackbytes-theme");const theme=saved==="light"||saved==="dark"?saved:matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=theme;document.documentElement.style.colorScheme=theme}catch{}})();`,
+          }}
+        />
         <style
           id="intro-critical-css"
           dangerouslySetInnerHTML={{
-            __html: `html[data-intro-pending] body{overflow:hidden;background:#f5f3ec}html[data-intro-pending] body>*{visibility:hidden}html[data-intro-pending] .intro[hidden]{display:block;visibility:visible;position:fixed;inset:0;z-index:99}html[data-intro-pending] .intro-veil{position:absolute;inset:0;background:#f5f3ec}html[data-intro-pending] .pond-scene{visibility:visible}`,
+            __html: `html[data-intro-pending] body{overflow:hidden;background:var(--paper)}html[data-intro-pending] body>*{visibility:hidden}html[data-intro-pending] .intro[hidden]{display:block;visibility:visible;position:fixed;inset:0;z-index:99}html[data-intro-pending] .intro-veil{position:absolute;inset:0;background:var(--paper)}html[data-intro-pending] .pond-scene{visibility:visible}`,
           }}
         />
         <script

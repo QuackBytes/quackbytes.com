@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 export { Intro } from "./intro";
 import { Arrow, Duck } from "./brand";
+import { ThemeToggle } from "./theme-toggle";
 
 type Nav = {
   home: string;
@@ -11,6 +12,7 @@ type Nav = {
   contact: string;
   switchLabel: string;
   switchAria: string;
+  themeAria: string;
 };
 
 type FooterCopy = {
@@ -59,6 +61,7 @@ export function Header({ lang, nav }: { lang: string; nav: Nav }) {
         >
           {nav.switchLabel}
         </Link>
+        <ThemeToggle label={nav.themeAria} />
       </nav>
     </header>
   );

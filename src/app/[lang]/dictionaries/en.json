@@ -18,7 +18,8 @@
     "studio": "The studio",
     "contact": "Let’s talk",
     "switchLabel": "Türkçe",
-    "switchAria": "Bu sayfayı Türkçe görüntüle"
+    "switchAria": "Bu sayfayı Türkçe görüntüle",
+    "themeAria": "Switch between light and dark theme"
   },
   "home": {
     "eyebrowTop": "A YOUNG STUDIO · KAYSERİ, TÜRKİYE",
